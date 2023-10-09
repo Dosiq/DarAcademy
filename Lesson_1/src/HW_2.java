@@ -1,4 +1,4 @@
-public class HW_1 {
+public class HW_2 {
     public static void main(String[] args) {
         System.out.println("Привет, мир! Я изучаю Java.");
         //один
