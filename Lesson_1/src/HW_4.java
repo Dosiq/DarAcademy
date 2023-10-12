@@ -38,5 +38,6 @@ public class HW_4 {
         System.out.println(a < 50);
         System.out.println(a < b);
         System.out.println(a< 50 && a<b);
+
     }
 }
