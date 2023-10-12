@@ -51,6 +51,8 @@ public class HW_3 {
         double ans1 = (double) fromInt;
 
         short ans2 = (short) fromInt;
+
+
     }
 }
 
