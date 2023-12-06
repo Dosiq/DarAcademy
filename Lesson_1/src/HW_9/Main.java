@@ -1,5 +1,7 @@
 package HW_9;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         //1
@@ -17,6 +19,7 @@ public class Main {
         System.out.println(starTriangle.toString());
 
         //3
+
         Square sq = new Square();
         System.out.print("Enter width: ");
         System.out.println(sq.returnPerimeter());
@@ -35,5 +38,22 @@ public class Main {
         System.out.println("\nТемпература в градусах Цельсия: " + temp2.getTemperatureCelsius());
         System.out.println("Температура в градусах Фаренгейта: " + temp2.getTemperatureFahrenheit());
         System.out.println("Шкала: " + temp2.getScale());
+
+
+
+        //9.2.1
+        Outer outer = new Outer(1);
+        Outer.Inner inner = outer.new Inner();
+        inner.incrementAndDisplay();
+
+
+        //9.2.2
+        Vehicle vehicle = new Vehicle();
+        vehicle.startEngine();
+
+        //9.2.3
+        Book book = new Book("Vinland Saga");
+        Book.Description description = book.new Description();
+        description.displayBookInfo();
     }
 }
